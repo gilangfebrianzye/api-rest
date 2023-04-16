@@ -42,87 +42,87 @@ list = [
         features: [
             {
                 name: "cogan",
-                url: "/api/random/cogan"
+                url: "/api/image/cogan"
             },
             {
                 name: "cecan",
-                url: "/api/random/cecan"
+                url: "/api/image/cecan"
             },
             {
                 name: "aesthetic",
-                url: "/api/random/aesthetic"
+                url: "/api/image/aesthetic"
             },
             {
                 name: "anjing",
-                url: "/api/random/anjing"
+                url: "/api/image/anjing"
             },
             {
                 name: "antiwork",
-                url: "/api/random/antiwork"
+                url: "/api/image/antiwork"
             },
             {
                 name: "blackpink",
-                url: "/api/random/blackpink"
+                url: "/api/image/blackpink"
             },
             {
                 name: "boneka",
-                url: "/api/random/boneka"
+                url: "/api/image/boneka"
             },
             {
                 name: "cecan",
-                url: "/api/random/cecan"
+                url: "/api/image/cecan"
             },
             {
                 name: "cosplay",
-                url: "/api/random/cosplay"
+                url: "/api/image/cosplay"
             },
             {
                 name: "dadu",
-                url: "/api/random/dadu"
+                url: "/api/image/dadu"
             },
             {
                 name: "justina",
-                url: "/api/random/justina"
+                url: "/api/image/justina"
             },
             {
                 name: "kayes",
-                url: "/api/random/kayes"
+                url: "/api/image/kayes"
             },
             {
                 name: "kpop",
-                url: "/api/random/kpop"
+                url: "/api/image/kpop"
             },
             {
                 name: "kucing",
-                url: "/api/random/kucing"
+                url: "/api/image/kucing"
             },
             {
                 name: "mobil",
-                url: "/api/random/mobil"
+                url: "/api/image/mobil"
             },
             {
                 name: "notnot",
-                url: "/api/random/notnot"
+                url: "/api/image/notnot"
             },
             {
                 name: "profil",
-                url: "/api/random/profil"
+                url: "/api/image/profil"
             },
             {
                 name: "rose",
-                url: "/api/random/rose"
+                url: "/api/image/rose"
             },
             {
                 name: "ryujin",
-                url: "/api/random/ryujin"
+                url: "/api/image/ryujin"
             },
             {
                 name: "wallhp",
-                url: "/api/random/wallhp"
+                url: "/api/image/wallhp"
             },
             {
                 name: "wallml",
-                url: "/api/random/wallml"
+                url: "/api/image/wallml"
             }
         ]
     },
