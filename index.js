@@ -5,13 +5,13 @@ const port = 3000
 
 app.use(cors())
 
+// app.use(express.static('views'))
+
 const apiRoutes = require('./routes/api')
+const mainRoutes = require('./routes/main')
 
 app.use('/api', apiRoutes)
-
-app.get('/', (req, res) => {
-    res.send('mongke')
-})
+app.use('/', mainRoutes)
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
