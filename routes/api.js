@@ -2,8 +2,11 @@ require('../logger')// logger for error
 const axios = require('axios')
 const express = require('express')
 const router = express.Router()
+const { edukasi, tools } = require('../lib/restapi-org')
 
-
+function getrequest() {
+    axios.get('https://api.countapi.xyz/hit/gilangzyehan.com/request')
+}
 
 // asupan
 router.get('/asupan/bocil', async (req, res) => {
@@ -12,6 +15,7 @@ router.get('/asupan/bocil', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -28,6 +32,7 @@ router.get('/asupan/geayubi', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -44,6 +49,7 @@ router.get('/asupan/gheayubi', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -60,6 +66,7 @@ router.get('/asupan/hijaber', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -76,6 +83,7 @@ router.get('/asupan/random', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -92,6 +100,7 @@ router.get('/asupan/rikagusriani', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -108,6 +117,7 @@ router.get('/asupan/santuy', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -124,6 +134,7 @@ router.get('/asupan/ukhty', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -141,6 +152,7 @@ router.get('/cecan/china', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -157,6 +169,7 @@ router.get('/cecan/hijaber', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -173,6 +186,7 @@ router.get('/cecan/indonesia', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -189,6 +203,7 @@ router.get('/cecan/japan', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -205,6 +220,7 @@ router.get('/cecan/malaysia', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -221,6 +237,7 @@ router.get('/cecan/random', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -237,6 +254,7 @@ router.get('/cecan/thailand', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -253,6 +271,7 @@ router.get('/cecan/vietnam', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -270,6 +289,7 @@ router.get('/cogan/random', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -287,6 +307,7 @@ router.get('/image/cogan', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -305,6 +326,7 @@ router.get('/image/cogan', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -323,6 +345,7 @@ router.get('/image/aesthetic', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -341,6 +364,7 @@ router.get('/image/anjing', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -359,6 +383,7 @@ router.get('/image/antiwork', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -371,12 +396,13 @@ router.get('/image/antiwork', async (req, res) => {
             res.status(503).json(logger.error)
         })
 })
-router.get('/image/blackpink', async (req, res) => {
+router.get('/image/c', async (req, res) => {
     await axios.get('https://raw.githubusercontent.com/HardToo/resourcesv2/main/random_image/blackpink.json')
         .then((result) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -395,6 +421,7 @@ router.get('/image/boneka', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -413,6 +440,7 @@ router.get('/image/cecan', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -431,6 +459,7 @@ router.get('/image/cosplay', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -449,6 +478,7 @@ router.get('/image/dadu', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -467,6 +497,7 @@ router.get('/image/justina', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -485,6 +516,7 @@ router.get('/image/kayes', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -503,6 +535,7 @@ router.get('/image/kpop', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -521,6 +554,7 @@ router.get('/image/kucing', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -539,6 +573,7 @@ router.get('/image/mobil', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -557,6 +592,7 @@ router.get('/image/montor', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -575,6 +611,7 @@ router.get('/image/notnot', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -593,6 +630,7 @@ router.get('/image/ppcouple', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -611,6 +649,7 @@ router.get('/image/profil', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -629,6 +668,7 @@ router.get('/image/rose', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -647,6 +687,7 @@ router.get('/image/ryujin', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -665,6 +706,7 @@ router.get('/image/wallhp', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -683,6 +725,7 @@ router.get('/image/wallml', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -702,6 +745,7 @@ router.get('/sfw/milf', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -718,6 +762,7 @@ router.get('/sfw/loli', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -734,6 +779,7 @@ router.get('/sfw/neko', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -750,6 +796,7 @@ router.get('/sfw/hubsu', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -766,6 +813,7 @@ router.get('/sfw/shota', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -782,6 +830,7 @@ router.get('/sfw/waifu', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -799,6 +848,7 @@ router.get('/islamic/image', async (req, res) => {
             const items = result.data
             const hasil = items[Math.floor(Math.random() * items.length)];
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -816,6 +866,7 @@ router.get('/islamic/al-quran', async (req, res) => {
         .then((result) => {
             const items = result.data
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -851,6 +902,7 @@ router.get('/islamic/al-quran/:surah', async (req, res) => {
         .then((result) => {
             const items = result.data
             const rest = items.find(({ number_of_surah }) => number_of_surah === isnumber);
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -866,6 +918,7 @@ router.get('/islamic/asmaul_husna', async (req, res) => {
         .then((result) => {
             const items = result.data
 
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -901,6 +954,7 @@ router.get('/islamic/asmaul_husna/:number', async (req, res) => {
             const items = result.data
 
             const rest = items.find(({ number }) => number === number);
+            getrequest()
             res.status(200).json({
                 code: 200,
                 creator,
@@ -910,6 +964,124 @@ router.get('/islamic/asmaul_husna/:number', async (req, res) => {
         .catch(err => {
             res.status(503).json(logger.error)
         })
+})
+router.get('/islamic/kisahnabi/:nabi', async (req, res) => {
+    var nabi = req.params.nabi
+    var nama = ['adam', 'ayyub', 'daud', 'dzulkifli', 'harun', 'hud', 'ibrahim', 'idris', 'ilyas', 'ilyasa', 'isa', 'ishaq', 'ismail', 'luth', 'muhammad', 'musa', 'nuh', 'sholeh', 'sulaiman', 'syuaib', 'yahya', 'yaqub', 'yunus', 'yusuf', 'zakariya']
+    var cek = nama.includes(nabi)
+
+    // console.log(cek)
+    if (cek === true) {
+        await axios.get(`https://raw.githubusercontent.com/danzzcoding/data-danzzapi.xyz/main/islamic/kisah_nabi/${nabi}.json`)
+            .then((result) => {
+                const items = result.data
+
+                // const rest = items.find(({ number }) => number === number);
+                res.status(200).json({
+                    code: 200,
+                    creator,
+                    result: items
+                })
+            })
+            .catch(err => {
+                res.status(503).json(logger.error)
+            })
+    } else {
+        res.status(404).json({
+            code: 404,
+            creator,
+            msg: `name nabi not found!`
+        })
+    }
+})
+// blum
+router.get('/edukasi/covidworld', async (req, res, next) => {
+    await edukasi.covidDunia().then((result) => {
+        const items = result
+
+        // const rest = items.find(({ number }) => number === number);
+        res.status(200).json({
+            code: 200,
+            creator,
+            result: items
+        })
+    })
+        .catch(err => {
+            res.status(503).json(logger.error)
+        })
+})
+router.get('/edukasi/infogempa', async (req, res, next) => {
+    await edukasi.infoGempa().then((result) => {
+        const items = result
+
+        // const rest = items.find(({ number }) => number === number);
+        res.status(200).json({
+            code: 200,
+            creator,
+            result: items
+        })
+    })
+        .catch(err => {
+            res.status(503).json(logger.error)
+        })
+})
+// tools
+router.get('/tools/ip/:ip', async (req, res, next) => {
+    const ip = req.params.ip
+
+    await tools.iplookup(ip).then((result) => {
+        const items = result
+
+        // const rest = items.find(({ number }) => number === number);
+        // if (items.code === 503) {
+        //     res.status(503).json(items)
+        // } else {
+        //     res.status(200).json({
+        //         code: 200,
+        //         creator,
+        //         result: items
+        //     })
+        // }
+
+        res.status(items.code).json(items)
+    })
+        .catch(err => {
+            res.status(503).json(logger.error)
+        })
+})
+router.get('/tools/ip', async (req, res, next) => {
+    await tools.getip().then((result) => {
+        const items = result
+
+        // const rest = items.find(({ number }) => number === number);
+        res.status(200).json({
+            code: 200,
+            creator,
+            result: items
+        })
+    })
+        .catch(err => {
+            res.status(503).json(logger.error)
+        })
+})
+router.get('/tools/stalkff', async (req, res, next) => {
+    const { id } = req.query
+
+    if (!id) {
+        res.status(404).json({
+            code: 404,
+            creator,
+            msg: 'query id not found!'
+        })
+        return
+    }
+
+    await tools.stalkff(id).then((result) => {
+        const items = result
+
+        // const rest = items.find(({ number }) => number === number);
+        res.status(items.code).json(items)
+    })
 })
 
 module.exports = router
